@@ -11,7 +11,11 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+mix
+
+    .styles('resources/views/templetes/homeCss/bootstrap/bootstrap.css', 'public/homeCss/bootstrap.css')
+    .styles('resources/views/templetes/homeCss/fontawesome-free/css/all.css', 'public/homeCss/fontawesome.css')
+    .styles('resources/views/templetes/homeCss/clean-blog/clean-blog.css', 'public/homeCss/clean-blog.css') 
+    .scripts('resources/views/templetes/homeJs/clean-blog/clean-blog.js', 'public/homeJs/clean-blog.js')
+    .scripts('resources/views/templetes/homeJs/bootstrap/bootstrap.bundle.js', 'public/homeJs/bootstrap.bundle.js')
+    .scripts('node_modules/jquery/dist/jquery.js', 'public/homeJs/jquery.js');
