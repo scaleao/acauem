@@ -15,9 +15,9 @@
     @endif
     <form action="{{route('publication')}}" method="post" enctype="multipart/form-data">
         {{csrf_field()}}
-        <div class="container col-md-8 justify-content-center">
+        <div class="container col-md-8 justify-content-center border border-secondary rounded">
             <div class="form-row mb-5">
-                <div class="custom-file">
+                <div class="custom-file mt-3">
                     <input type="file" class="custom-file-input" id="validatedCustomFile" name="capa">
                     <label class="custom-file-label" for="validatedCustomFile">Escolha uma foto para capa</label>
                     @error('capa')
@@ -55,7 +55,7 @@
                     <div class="alert alert-danger">{{ $message }}</div>
                 @enderror
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mb-3">
                 <input type="submit" class="btn-success" value="Publicar">
             </div>
         </div>

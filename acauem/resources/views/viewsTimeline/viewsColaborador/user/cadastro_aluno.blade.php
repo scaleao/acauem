@@ -40,7 +40,7 @@
                         @enderror
                     </div>
                     <div class="col-md-2 mb-2">
-                        <label for="exampleFormControlInput3">Genero</label>
+                        <label for="exampleFormControlInput3">Sexo</label>
                         <div class="input-group">
                             <select name="genero" class="form-control" for="exampleFormControlInput3">
                                 <option>---</option>
