@@ -4,6 +4,8 @@
     "/homeCss/clean-blog.css": "/homeCss/clean-blog.css",
     "/timelineCss/styleTimeline.css": "/timelineCss/styleTimeline.css",
     "/homeJs/clean-blog.js": "/homeJs/clean-blog.js",
-    "/homeJs/bootstrap.bundle.js": "/homeJs/bootstrap.bundle.js",
-    "/homeJs/jquery.js": "/homeJs/jquery.js"
+    "/homeJs/bootstrap.bundle.min.js": "/homeJs/bootstrap.bundle.min.js",
+    "/homeJs/bootstrap.bundle.min.js.map": "/homeJs/bootstrap.bundle.min.js.map",
+    "/homeJs/jquery.min.js": "/homeJs/jquery.min.js",
+    "/homeJs/jquery.min.js.map": "/homeJs/jquery.min.js.map"
 }

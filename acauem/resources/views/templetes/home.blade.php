@@ -49,8 +49,10 @@
         <!-- Bootstrap core JavaScript -->
         <!--<script src="../vendor/jquery/jquery.min.js"></script>
         <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-        <scrip src="{{asset('homeJs/jquery.js')}}"></script>
-        <scrip src="{{asset('homeJs/bootstrap.bundle.js')}}"></script>
+        
+        <!-- WEBPACK LARAVEL MIX ASSETS -->
+        <script src="{{ asset('homeJs/jquery.min.js')}} "></script>
+        <script src="{{ asset('homeJs/bootstrap.bundle.min.js' )}}"></script>
 
         <!-- Custom scripts for this template -->
         <!-- <script src="../js/clean-blog.min.js"></script> -->

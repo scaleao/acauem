@@ -20,5 +20,7 @@ mix
     .styles('resources/views/templetes/timelineCss/styleTimeline.css', 'public/timelineCss/styleTimeline.css')
 
     .scripts('resources/views/templetes/homeJs/clean-blog/clean-blog.js', 'public/homeJs/clean-blog.js')
-    .scripts('resources/views/templetes/homeJs/bootstrap/bootstrap.bundle.js', 'public/homeJs/bootstrap.bundle.js')
-    .scripts('node_modules/jquery/dist/jquery.js', 'public/homeJs/jquery.js');
+    .scripts('resources/views/templetes/homeJs/bootstrap/bootstrap.bundle.min.js', 'public/homeJs/bootstrap.bundle.min.js')
+    .scripts('resources/views/templetes/homeJs/bootstrap/bootstrap.bundle.min.js.map', 'public/homeJs/bootstrap.bundle.min.js.map')
+    .scripts('resources/views/templetes/homeJs/jquery/jquery.min.js', 'public/homeJs/jquery.min.js')
+    .scripts('resources/views/templetes/homeJs/jquery/jquery.min.js.map', 'public/homeJs/jquery.min.js.map')
