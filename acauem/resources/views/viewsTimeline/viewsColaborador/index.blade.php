@@ -13,9 +13,9 @@
         </div>
     @endif
 
-    <div class="chart-container">
+    <!--<div class="chart-container">
         <canvas id="myChart"></canvas>
-    </div>
+    </div>-->
 
     <div class="body-colab-index">
         <div class="container-fluid">
@@ -27,7 +27,7 @@
                                 <div class="header-colab-index">{{$usuario->name}}</div>
 
                                 <div class="banner-img-colab-index">
-                                    <img src="{{$usuario->foto}}" alt="ImagemUser">
+                                    <img src="{{Storage::url($usuario->foto)}}" alt="ImagemUser">
                                 </div>
 
                                 <div class="dates-colab-index">
