@@ -23,7 +23,7 @@
                     <a class="nav-link" href="{{route('home.contato')}}">Contato</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('home.login')}}">ENTRAR</a>
+                    <a class="nav-link" href="{{route('home.entrar')}}">ENTRAR</a>
                 </li>
             </ul>
         </div>

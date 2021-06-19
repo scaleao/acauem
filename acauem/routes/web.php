@@ -24,13 +24,8 @@ Route::get('/sobre', [HomeController::class, 'sobre'])->name('home.sobre');
 Route::get('/publicacoes', [HomeController::class, 'publicacoes'])->name('home.publicacoes');
 Route::get('/apoiadores', [HomeController::class, 'apoiadores'])->name('home.apoiadores');
 Route::get('/contato', [HomeController::class, 'contato'])->name('home.contato');
-Route::get('/entrar', [HomeController::class, 'entrar'])->name('home.login');
+Route::get('/entrar', [HomeController::class, 'entrar'])->name('home.entrar');
 Route::post('/entrar', [UserController::class, 'login'])->name('home.login');
-/*Route::get('/publicacoes', ['as'=>'home.publicacoes', 'uses'=>'HomeController@publicacoes']);
-Route::get('/apoiadores', ['as'=>'home.apoiadores', 'uses'=>'HomeController@apoiadores']);
-Route::get('/contato', ['as'=>'home.contato', 'uses'=>'HomeController@contato']);
-Route::get('/entrar', ['as'=>'home.login', 'uses'=>'HomeController@entrar']);
-Route::post('/entrar', ['as'=>'home.login', 'uses'=>'UserController@login']);*/
 
 Route::get('/new-publication', ['as'=>'home.publicacao', 'uses'=>'HomeController@create']);
 Route::post('/new-publication', ['as'=>'publication', 'uses'=>'PublicacaoController@store']);
