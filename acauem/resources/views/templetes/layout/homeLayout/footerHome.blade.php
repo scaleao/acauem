@@ -32,13 +32,29 @@
                 <p class="copyright text-muted">CRÉDITOS: </p>
             </div>
         </div>
-        <div class="row justify-content-start">
-            <div class="col- 2 d-inline p-2 text-right">
+        <div class="container text-center">
+            <div class="row d-inline">
+                <div class="d-inline col-md-12 text-center">
+                    <img
+                    src="img/fundacao.png" 
+                    alt="Imagem_fundacao"
+                    style="width: 100px"/>
+                </div>
+                <div class="d-inline col-md-12 text-center">
+                    <img
+                    src="img/uenp.png" 
+                    alt="Imagem_uenp"
+                    style="width: 100px"/>
+                </div>              
+            </div>
+        </div>
+        <!--<div class="row mx-auto text-center border border-warning">
+            <div class="d-inline p-2 text-right border border-dark">
                 <img src="img/fundacao.png" style="width: 40%">
             </div>
-            <div class="col- 2 d-inline p-2 text-left">
+            <div class="d-inline p-2 text-left border border-dark">
                 <img src="img/uenp.png" style="width: 40%">
             </div>          
-        </div>
+        </div> -->
     </div>
 </footer>
