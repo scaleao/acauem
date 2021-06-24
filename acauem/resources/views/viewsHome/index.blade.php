@@ -13,8 +13,8 @@
                     {{$publicacao->subTexto}}
                 </h3>
             </a>
-            <p class="post-meta">Postado por
-                <a href="#"> ??? </a>
+            <p class="post-meta">Postado as<!--por
+                <a href="#"> ??? </a> -->
                 {{$publicacao->created_at}}</p>
         </div>
         <hr>
