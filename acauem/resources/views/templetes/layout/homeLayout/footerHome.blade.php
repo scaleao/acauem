@@ -36,13 +36,13 @@
             <div class="row d-inline">
                 <div class="d-inline col-md-12 text-center">
                     <img
-                    src="img/fundacao.png" 
+                    src="../img/fundacao.png" 
                     alt="Imagem_fundacao"
                     style="width: 100px"/>
                 </div>
                 <div class="d-inline col-md-12 text-center">
                     <img
-                    src="img/uenp.png" 
+                    src="../img/uenp.png" 
                     alt="Imagem_uenp"
                     style="width: 100px"/>
                 </div>              
